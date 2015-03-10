@@ -1,6 +1,6 @@
-<!-- 20140318 -->
+<!-- 20150318 -->
 <% 
-if date() > cdate("5/27/2014") then
+if date() > cdate("5/27/2015") then
 response.redirect("closed.html")
 end if
 %>

@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>PCOM Alumni Weekend 2015</title>
+<title>PCOM - Registration Closed</title>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
 <link rel="stylesheet" type="text/css" href="style/pcom2009.css">
 </head>
@@ -18,10 +18,10 @@
 
 	<div id="mainContainer">
 		
-		<div id="navigation">
+			<div id="navigation">
 			
 			<li><a href="index.html">Home</a></li>
-			<li><a href="https://miswebmaster.easycgi.com/alumwknd15/register2.asp">Registration</a></li>
+			<li><a href="https://miswebmaster.easycgi.com/alumwknd14/register2.asp">Registration</a></li>
 			<li><a href="events.html">Schedule of Events</a></li>
 			<li><a href="cme.html">CME Seminars</a></li>
 			<li><a href="hotel.html">Hotel Accommodations</a></li>
@@ -30,8 +30,26 @@
 		</div>
 
 		
-		<div id="imgs"><img src="images2/img-home.jpg"></div>
-		<div id="regLink"><a href="https://miswebmaster.easycgi.com/alumwknd15/register2.asp">Register Now for Reunion Weekend 2015</a><br/><br/><span class="thirdBlueTitle">Questions? Contact: 215-871-6120/800-739-3939</span></div>		
+		<div id="titleEvent"><img src="images2/title-registration.jpg"></div>
+		<div id="content">
+		<div class="firstTitle">Online registration has closed. <br/><br/>To register, please call our office at
+    215-871-6120 or 800-739-3939.
+    </div> 
+		<div class="thirdBlueTitle">
+	 
+       
+       
+		  </div>
+
+
+
+
+
+
+		</div><br>
+<br>
+
+			
 	</div>
 	<div id="btmCorner"></div>
 	<div id="btmPadding"></div>

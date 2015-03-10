@@ -1,6 +1,6 @@
-<!-- 20140318 -->
+<!-- 20150318 -->
 <% 
-if date() > cdate("5/27/2014") then
+if date() > cdate("5/27/2015") then
 response.redirect("closed.html")
 end if
 %>
@@ -637,7 +637,7 @@ function isCompDinnerDance(objFormItem)
 	    <table >
                      <tr>
 																								<td class="listColumnHeader2"  style="color:#000">
-																									<b>Friday, May 30, 2014</b></td>
+																									<b>Friday, May 30, 2015</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;
@@ -728,7 +728,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr><td colspan="4">&nbsp;</td></tr>
 																							 <tr>
 																								<td class="listColumnHeader2" style="color:#000">
-																									<b>Saturday, May 31, 2014</b></td>
+																									<b>Saturday, May 31, 2015</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;

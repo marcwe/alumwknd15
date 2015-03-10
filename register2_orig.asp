@@ -1,4 +1,4 @@
-<!-- 20140318 -->
+<!-- 20150318 -->
 <% 
 if date() > cdate("5/24/2019") then
 response.redirect("closed.html")

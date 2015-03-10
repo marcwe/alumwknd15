@@ -1,6 +1,6 @@
-<!-- 20150310 -->
+<!-- 20140318 -->
 <% 
-if date() > cdate("5/29/2015") then
+if date() > cdate("5/24/2019") then
 response.redirect("closed.html")
 end if
 %>
@@ -221,10 +221,10 @@ function updatePrice(objForm){
 			 
 			 
 			 if (isCompDinnerDance(document.formRegister.classYear)==true) {
-			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1964';
+			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1963';
 			
 				if(fixInt(document.formRegister.FFBQuantity) >= 2){
-					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1964';
+					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1963';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total = subtotal - 50;
 					document.formRegister.FFBTotal.value = total;
@@ -232,7 +232,7 @@ function updatePrice(objForm){
 					}
 					
 				if(fixInt(document.formRegister.FFBQuantity) == 1) {
-					document.getElementById("message").innerHTML = '1 Complimentary Ticket for Class of 1964';
+					document.getElementById("message").innerHTML = '1 Complimentary Ticket for Class of 1963';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total =  0;
 					document.formRegister.FFBTotal.value = total;
@@ -331,7 +331,7 @@ function updatePrice(objForm){
 			 
 function isCompDinnerDance(objFormItem)
 		{
-			if(objFormItem.value == "1900") return true;
+			if(objFormItem.value == "1963") return true;
 			/*else {
 				var str = objFormItem.value;
 				var match = str.match(/19[45][05]/);			
@@ -387,7 +387,7 @@ function isCompDinnerDance(objFormItem)
 			<div id="navigation">
 			
 			<li><a href="index.html">Home</a></li>
-			<li><a href="https://miswebmaster.easycgi.com/alumwknd14/register2.asp">Registration</a></li>
+			<li><a href="https://miswebmaster.easycgi.com/alumwknd13/register2.asp">Registration</a></li>
 			<li><a href="events.html">Schedule of Events</a></li>
 			<li><a href="cme.html">CME Seminars</a></li>
 			<li><a href="hotel.html">Hotel Accommodations</a></li>
@@ -403,15 +403,15 @@ function isCompDinnerDance(objFormItem)
   																			method="post"> <!--000068625568-->
   		<input type="hidden" name="serialnumber" value="000068625568"> <input type="hidden" name="ordernumber">
   		<input type="hidden" name="transactionamount"> <input type="hidden" name="orderstring">
-  		<input type="hidden" name="comment"> <input type="hidden" name="mailto" value="connie@pcom.edu, marcwe@pcom.edu">
+  		<input type="hidden" name="comment"> <input type="hidden" name="mailto" value="connie@pcom.edu,marcwe@pcom.edu">
   		<input type="hidden" name="mailfrom" value="connie@pcom.edu"> <input type="hidden" name="subject" value="Alumni signed up for Alumni Weekend">
-  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd15/noChargeThanks.html">
+  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd13/noChargeThanks.html">
   		<input type="hidden" name="dateToday" value="<%=Date()%>">
   		
-  		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2015.</div>
+  		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2013.</div>
   		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
 			<font color="#f99d31">* Indicates required fields</font>    <br/>
-      <b>REGISTRATION DEADLINE: Monday, May 29, 2015</b>
+      <b>REGISTRATION DEADLINE: Friday, May 24, 2013</b>
       </div>
       
       <div class="secondRedTitle">Step 1: Personal Information </div>
@@ -637,7 +637,7 @@ function isCompDinnerDance(objFormItem)
 	    <table >
                      <tr>
 																								<td class="listColumnHeader2"  style="color:#000">
-																									<b>Friday, June 5, 2015</b></td>
+																									<b>Friday, May 31, 2013</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;
@@ -657,7 +657,7 @@ function isCompDinnerDance(objFormItem)
 																							</tr>
 																							<tr>
 																								<td class="list" colspan=2>
-																									<b>Reunion Luncheon for the Classes of 1965, 1960, 1955, 1950, 1945<br /></b>
+																									<b>Reunion Luncheon for the Classes of 1963, 1958, 1953, 1948, 1943, 1938<br />NEW LOCATION </b>
 																								</td>
 																								
 																								<td class="list">&nbsp;
@@ -678,7 +678,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr>
 																								<td class="listIndent">
 																									<input type="hidden" name="FFBItemNumber" value="1"> 
-																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1965, 1960, 1955, 1950, 1945">
+																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1963, 1958, 1953, 1948, 1943, 1938">
 																									<input type="hidden" name="FFBItemCost" value="25.00"> Adult: $25 per person 
                                                     <div style="COLOR: red" id="message" name="message">
 																									</div></td>
@@ -728,7 +728,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr><td colspan="4">&nbsp;</td></tr>
 																							 <tr>
 																								<td class="listColumnHeader2" style="color:#000">
-																									<b>Saturday, June 6, 2015</b></td>
+																									<b>Saturday, June 1, 2013</b></td>
 																								<td class="listColumnHeader2">
 																								</td>
 																								<td class="listColumnHeader2">&nbsp;
@@ -781,7 +781,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr><td colspan=4>&nbsp;</td></tr>
 																							<tr>
 																								<td class="list" colspan=4>
-																									<b>Reunion Grand Reception for ALL Reunion Classes<br /></b></td>
+																									<b>Reunion Grand Reception for ALL Reunion Classes<br />NEW LOCATION</b></td>
 																								
 																							
 																							</tr>
@@ -798,7 +798,7 @@ function isCompDinnerDance(objFormItem)
 																							<tr>
 																								<td class="listIndent">
 																									<input type="hidden" name="RDDItemNumber" value="4"> <input type="hidden" name="RDDItemDescription" value="Reunion Grand Reception">
-																									<input type="hidden" name="RDDItemCost" value="65.00"> Adults: $65 per person<br>
+																									<input type="hidden" name="RDDItemCost" value="55.00"> Adults: $55 per person<br>
 																								
 																								</td>
 																								<td class="listCenter2">
@@ -936,8 +936,9 @@ function isCompDinnerDance(objFormItem)
 																									
 																										
 																										
-																										
-																												
+																										<option value="12">12</option>
+																											<option value="13">13</option>
+																												<option value="14">14</option>
 																													<option value="15">15</option>
 <option value="16">16</option>
 <option value="17">17</option>	
@@ -948,11 +949,6 @@ function isCompDinnerDance(objFormItem)
 <option value="22">22</option>
 <option value="23">23</option>
 <option value="24">24</option>
-<option value="25">25</option>
-<option value="26">26</option>
-<option value="27">27</option>
-<option value="28">28</option>
-<option value="29">29</option>
 																								</select>
 																								</td>
 																								<td class="list">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
