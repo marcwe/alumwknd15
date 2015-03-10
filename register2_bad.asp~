@@ -1,6 +1,6 @@
 <!-- 20130318 -->
 <% 
-if date() > cdate("5/27/2014") then
+if date() > cdate("5/27/2015") then
 response.redirect("closed.html")
 end if
 %>
@@ -416,7 +416,7 @@ function isCompDinnerDance(objFormItem)
   		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2013.</div>
   		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
 			<font color="#f99d31">* Indicates required fields</font>    <br/>
-      <b>REGISTRATION DEADLINE: Monday, May 26, 2014</b>
+      <b>REGISTRATION DEADLINE: Monday, May 26, 2015</b>
       </div>
       
       <div class="secondRedTitle">Step 1: Personal Information </div>

@@ -387,7 +387,7 @@ function isCompDinnerDance(objFormItem)
 			<div id="navigation">
 			
 			<li><a href="index.html">Home</a></li>
-			<li><a href="https://miswebmaster.easycgi.com/alumwknd14/register2.asp">Registration</a></li>
+			<li><a href="https://miswebmaster.easycgi.com/alumwknd15/register2.asp">Registration</a></li>
 			<li><a href="events.html">Schedule of Events</a></li>
 			<li><a href="cme.html">CME Seminars</a></li>
 			<li><a href="hotel.html">Hotel Accommodations</a></li>
@@ -405,7 +405,7 @@ function isCompDinnerDance(objFormItem)
   		<input type="hidden" name="transactionamount"> <input type="hidden" name="orderstring">
   		<input type="hidden" name="comment"> <input type="hidden" name="mailto" value="connie@pcom.edu,marcwe@pcom.edu">
   		<input type="hidden" name="mailfrom" value="connie@pcom.edu"> <input type="hidden" name="subject" value="Alumni signed up for Alumni Weekend">
-  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd14/noChargeThanks.html">
+  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd15/noChargeThanks.html">
   		<input type="hidden" name="dateToday" value="<%=Date()%>">
   		
   		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2013.</div>

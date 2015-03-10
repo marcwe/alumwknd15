@@ -387,7 +387,7 @@ function isCompDinnerDance(objFormItem)
 			<div id="navigation">
 			
 			<li><a href="index.html">Home</a></li>
-			<li><a href="https://miswebmaster.easycgi.com/alumwknd14/register2.asp">Registration</a></li>
+			<li><a href="https://miswebmaster.easycgi.com/alumwknd15/register2.asp">Registration</a></li>
 			<li><a href="events.html">Schedule of Events</a></li>
 			<li><a href="cme.html">CME Seminars</a></li>
 			<li><a href="hotel.html">Hotel Accommodations</a></li>
