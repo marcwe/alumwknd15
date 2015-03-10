@@ -1,0 +1,648 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script language="javascript" src="js/pcom2.js"></script>
+<link rel="stylesheet" type="text/css" href="style/pcom2009.css">
+
+
+	<style> <!-- span.registerheader { color: #330066; font-size: 11px; font-family: Verdana }
+	span.registerheaderbold { color: #330066; font-weight: bold; font-size: 11px; font-family: Verdana }
+	span.registerheaderdayname { color: #330066; font-style: italic; font-weight: bold; font-size: 11px; font-family: Verdana }
+	span.registertextbold { color: #330066; font-weight: bold; font-size: 11px; font-family: Verdana }
+	td.registerstep { color: #330066; font-weight: bold; font-size: 11px; font-family: Verdana }
+	td.registertextbold { color: #330066; font-weight: bold; font-size: 11px; font-family: Verdana }
+	td.registertextnormal { color: #330066; font-size: 11px; font-family: Verdana }
+	--></style>
+
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header"></div>
+
+
+
+
+
+	<div id="mainContainer">
+		
+			<div id="navigation">
+			
+			<li><a href="index.html">Home</a></li>
+			<li><a href="https://miswebmaster.easycgi.com/alumwknd13/register2.asp">Registration</a></li>
+			<li><a href="events.html">Schedule of Events</a></li>
+			<li><a href="cme.html">CME Seminars</a></li>
+			<li><a href="hotel.html">Hotel Accommodations</a></li>
+			<li><a href="phila.html">Visiting Philadelphia</a></li>
+			
+		</div>        
+		
+	      <div id="titleEvent"><img src="images2/title-registration.jpg"></div>
+	
+	<div id="content">
+	
+  	<form name="formRegister" action="https://www.skipjackic.com/scripts/evolvcc.dll?Authorize"
+  																			method="post"> <!--000068625568-->
+  		<input type="hidden" name="serialnumber" value="000068625568"> <input type="hidden" name="ordernumber">
+  		<input type="hidden" name="transactionamount"> <input type="hidden" name="orderstring">
+  		<input type="hidden" name="comment"> <input type="hidden" name="mailto" value="connie@pcom.edu">
+  		<input type="hidden" name="mailfrom" value="connie@pcom.edu"> <input type="hidden" name="subject" value="Alumni signed up for Alumni Weekend">
+  		<input type="hidden" name="URL" value="http://www.pcom.edu/alumwknd02/noChargeThanks.html">
+  		<input type="hidden" name="dateToday" value="<%=Date()%>">
+  		
+  		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2012.</div>
+  		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
+			<font color="#f99d31">* Indicates required fields</font>    <br/>
+      <b>REGISTRATION DEADLINE: Friday, May 25, 2012</b>
+      </div>
+      
+      <div class="secondRedTitle">Step 1: Personal Information </div>
+      <div class="thirdBlueTitle">
+      <table>
+          <tr><td><b>Name: <font color="#f99d31">*</font></b></td><td><input type="text" name="sjname" size="20" > <!-- <input type="radio" name="Comment" value="DO">DO<input type="radio" name="Comment" value="RN">RN --></td></tr>
+			   <tr><td><b>Class Year: <font color="#f99d31">*</font></b>&nbsp;(YYYY)</td><td><input type="text" name="classYear" id="classYear" size="4" maxlength="4" onChange="updatePrice(this.form);"></td></tr>
+          <tr>
+																								<td class="list">
+																									<b>Address: <font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<input type="text" name="Streetaddress" size="20" onChange="updatePrice(this.form);" >
+																									<br>
+																									<input type="text" name="Streetaddress2" size="20" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>City:&nbsp;<font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<input type="text" name="City" size="20" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>State: <font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<select name="State" size="1">
+																										<option value="" selected>
+																										<option value="AL">
+																										Alabama
+																										<option value="AK">
+																										Alaska
+																										<option value="AZ">
+																										Arizona
+																										<option value="AR">
+																										Arkansas
+																										<option value="CA">
+																										California
+																										<option value="CO">
+																										Colorado
+																										<option value="CT">
+																										Connecticut
+																										<option value="DE">
+																										Delaware
+																										<option value="DC">
+																										Dist. of Columbia
+																										<option value="FL">
+																										Florida
+																										<option value="GA">
+																										Georgia
+																										<option value="GU">
+																										Guam
+																										<option value="HI">
+																										Hawaii
+																										<option value="ID">
+																										Idaho
+																										<option value="IL">
+																										Illinois
+																										<option value="IN">
+																										Indiana
+																										<option value="IA">
+																										Iowa
+																										<option value="KS">
+																										Kansas
+																										<option value="KY">
+																										Kentucky
+																										<option value="LA">
+																										Louisiana
+																										<option value="ME">
+																										Maine
+																										<option value="MD">
+																										Maryland
+																										<option value="MA">
+																										Massachusetts
+																										<option value="MI">
+																										Michigan
+																										<option value="MN">
+																										Minnesota
+																										<option value="MS">
+																										Mississippi
+																										<option value="MO">
+																										Missouri
+																										<option value="MT">
+																										Montana
+																										<option value="NE">
+																										Nebraska
+																										<option value="NV">
+																										Nevada
+																										<option value="NH">
+																										New Hampshire
+																										<option value="NJ">
+																										New Jersey
+																										<option value="NM">
+																										New Mexico
+																										<option value="NY">
+																										New York
+																										<option value="NC">
+																										North Carolina
+																										<option value="ND">
+																										North Dakota
+																										<option value="OH">
+																										Ohio
+																										<option value="OK">
+																										Oklahoma
+																										<option value="OR">
+																										Oregon
+																										<option value="PA">
+																										Pennsylvania
+																										<option value="PR">
+																										Puerto Rico
+																										<option value="RI">
+																										Rhode Island
+																										<option value="SC">
+																										South Carolina
+																										<option value="SD">
+																										South Dakota
+																										<option value="TN">
+																										Tennessee
+																										<option value="TX">
+																										Texas
+																										<option value="UT">
+																										Utah
+																										<option value="VT">
+																										Vermont
+																										<option value="VA">
+																										Virginia
+																										<option value="VI">
+																										Virgin Islands
+																										<option value="WA">
+																										Washington
+																										<option value="WV">
+																										West Virginia
+																										<option value="WI">
+																										Wisconsin
+																										<option value="WY">Wyoming</option>
+																									</select>
+																								</td>
+																							</tr>
+									<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Zip: <font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<input type="text" name="Zipcode" size="9" onChange="updatePrice(this.form);" ></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Home Phone:&nbsp;<font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<input type="text" name="Shiptophone" size="12" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Office Phone:</b></td>
+																								<td class="list">
+																									<input type="text" name="officephone" size="12" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Email Address: <font color="#f99d31">*</font></b></td>
+																								<td class="list">
+																									<input type="text" name="Email" size="20" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Spouse/Guest Name(s):</b></td>
+																								<td class="list">
+																									<input type="text" name="guest1" size="20" onChange="updatePrice(this.form);">
+																									<br>
+																									<input type="text" name="guest2" size="20" onChange="updatePrice(this.form);">
+																									<br>
+																									<input type="text" name="guest3" size="20" onChange="updatePrice(this.form);">
+																									<br>
+																									<input type="text" name="guest4" size="20" onChange="updatePrice(this.form);">
+																									<br>
+																								</td>
+																							</tr>
+      </table>
+      </div>
+      <div class="secondRedTitle">Step 2: Event Information</div>
+	    <div class="thirdBlueTitle">
+	    <table >
+                     <tr>
+																								<td class="listColumnHeader2"  style="color:#000">
+																									<b>Friday, June 1, 2012</b></td>
+																								<td class="listColumnHeader2">
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr>
+																								<td class="list" colspan=2>
+																									<b>Reunion Luncheon for the Classes of 1962, 1957, 1952, 1947 </b>
+																								</td>
+																								
+																								<td class="list">&nbsp;
+																								</td>
+																								<td class="list">&nbsp;
+																								</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr>
+																								<td class="listIndent">
+																									<input type="hidden" name="ItemNumber" value="1"> 
+																									<input type="hidden" name="ItemDescription" value="Reunion Luncheon for - 1962,1957, 1952, 1947">
+																									<input type="hidden" name="ItemCost" value="25.00"> Adult: $25 per person 
+                                                    <div style="COLOR: red" id="message" name="message">
+																									</div></td>
+																								<td class="listCenter2">
+																									<strong>Adults:</strong>
+																								</td>
+																								<td class="listCenter">
+																									<input type="text" size="4" name="Quantity" value="0" onChange="updatePrice(this.form);"
+																										onfocus="this.select();"></td>
+																								<td class="listCenter">
+																									$ <input type="text" size="4" name="FFBTotal" value="0" disabled> .00</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																						<!--	<tr>
+																								<td class="listIndent">
+																									<i>This goes Children 12 and under are complimentary</i></td>
+																								<td class="listCenter2">
+																									<strong>Children:</strong>
+																								</td>
+																								<td class="listCenter">
+																									<input type="hidden" name="ItemNumber" value="2">
+																									<input type="hidden" name="ItemDescription" value="Reunion Luncheon - Children Complimentary" ID="Hidden5">
+																									<input type="hidden" name="ItemCost" value="0" ID="Hidden6">
+																									<input name="Quantity" type="text" id="Quantity" value="0" size="4" onChange="updatePrice(this.form);"></td>
+																								<td class="listCenter">&nbsp;
+																								</td>
+																							</tr>   -->
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr><td colspan="4">&nbsp;</td></tr>
+																							 <tr>
+																								<td class="listColumnHeader2" style="color:#000">
+																									<b>Saturday, June 2, 2012</b></td>
+																								<td class="listColumnHeader2">
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																							</tr>
+																							<tr>
+																								<td class="list" colspan=4>
+																									<b>Alumni & Family Luncheon and Campus Open House</b></td>
+																							</tr>
+																							<tr>
+																								<td class="listIndent">
+																									<input type="hidden" name="ItemNumber" value="2"> 
+																									<input type="hidden" name="ItemDescription" value="The PCOM Open House">
+																									<input type="hidden" name="ItemCost" value="5.00"> Adult: $5 per person</td>
+																								<td class="listCenter2">
+																									<strong>Adults:</strong>
+																								</td>
+																								<td class="listCenter">
+																									<input type="text" size="4" name="Quantity" value="0" onChange="updatePrice(this.form);"
+																										onfocus="this.select();"></td>
+																								<td class="listCenter">
+																									$ <input type="text" size="4" name="Total3" value="0" disabled> .00</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr>
+																								<td class="listIndent">
+																									<i>Children 12 and under are complimentary</i></td>
+																								<td class="listCenter2">
+																									<strong>Children:</strong>
+																								</td>
+																								<td class="listCenter">
+																									<input type="hidden" name="ItemNumber" value="2">
+																									<input type="hidden" name="ItemDescription" value="The PCOM Open House-Children" ID="Hidden5">
+																									<input type="hidden" name="ItemCost" value="0" ID="Hidden6">
+																									<input name="Quantity" type="text" id="Quantity" value="0" size="4" onChange="updatePrice(this.form);"></td>
+																								<td class="listCenter">&nbsp;
+																								</td>
+																							</tr>
+																							<tr><td colspan=4>&nbsp;</td></tr>
+																							<tr>
+																								<td class="list" colspan=4>
+																									<b>Reunion Grand Reception (ALL CLASSES) </b></td>
+																								
+																							
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr>
+																								<td class="listIndent">
+																									<input type="hidden" name="ItemNumber" value="3"> <input type="hidden" name="ItemDescription" value="Reunion Grand Reception">
+																									<input type="hidden" name="ItemCost" value="55.00"> Adults: $55 per person<br>
+																								
+																								</td>
+																								<td class="listCenter2">
+																									<strong>Adults:</strong>
+																								</td>
+																								<td class="listCenter">
+																									<input type="text" size="4" name="Quantity" value="0" onChange="updatePrice(this.form);"
+																										onfocus="this.select();"></td>
+																								<td class="listCenter">
+																									$ 
+																									  <input type="text" size="4" name="RDDTotal" value="0" disabled> 
+																								  .00</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr><td colspan="4">&nbsp;</td></tr>
+																								<tr>
+																								<td class="listColumnHeader2"  style="color:#000">
+																									<b>Reunion Giving Program</b></td>
+																								<td class="listColumnHeader2">
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																								<td class="listColumnHeader2">&nbsp;
+																								</td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																								</td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																								<td>
+																									<img src="images/spacer.gif" width="1" height="1"></td>
+																							</tr>
+																							<tr>
+																								<td class="listIndent">
+																									<input type="hidden" name="ItemNumber" value="4"> <input type="hidden" name="ItemDescription" value="I would like to celebrate my reunion with a gift">
+																									<input type="hidden" name="ItemCost" value="0"> <input type="hidden" name="Quantity" value="1" id="Hidden4">
+																									<b>I would like to celebrate my reunion with a gift of:</b></td>
+																								<td class="listCenter">
+																								</td>
+																								<td class="listCenter">
+																								</td>
+																								<td class="listCenter">
+																									$ <input type="text" size="4" name="CBTotal" value="0" onChange="updatePrice(this.form);"
+																										onfocus="this.select();"> .00</td>
+																							</tr>
+																							<tr>
+																								<td colspan="4">
+																									<img height="5" width="5" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list2" colspan="3" align="right">
+																									<b>TOTAL AMOUNT ENCLOSED:</b></td>
+																								<td class="listCenter">
+																									$ <input type="text" name="transactionamount2" size="4" value="0" disabled> .00</td>
+																							</tr>
+      </table>
+	    </div>
+	   <div class="secondRedTitle">Step 3: Payment Information</div>   
+	   <div class="thirdBlueTitle">
+	   <table>
+	   <tr>
+																								<td class="listCenter" colspan="4">
+																									<table border="0" cellpadding="0" cellspacing="0">
+																										<tr>
+																											<td>
+																												<b>We Accept: </b>
+																											</td>
+																											<td>
+																												<img height="45" width="202" src="images/creditcards.gif"></td>
+																										</tr>
+																									</table>
+																								</td>
+																							</tr>
+     <tr>
+																								<td class="list">
+																									<b>Card Number:</b></td>
+																								<td class="list" colspan="3">
+																									<input type="text" name="accountNumber" onChange="checkCard(this.form); updatePrice(this.form);"  size="30"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Expiration Date:</b></td>
+																								<td class="list">
+																									<select name="month" size="1">
+																										<option value="" selected>
+																										<option value="01">
+																										01
+																										<option value="02">
+																										02
+																										<option value="03">
+																										03
+																										<option value="04">
+																										04
+																										<option value="05">
+																										05
+																										<option value="06">
+																										06
+																										<option value="07">
+																										07
+																										<option value="08">
+																										08
+																										<option value="09">
+																										09
+																										<option value="10">
+																										10
+																										<option value="11">
+																										11
+																										<option value="12">12</option>
+																									</select>
+																									/
+																									<select name="year" size="1">
+																										<option value="" selected>
+																									
+																								
+																										
+																										<option value="12">12</option>
+																											<option value="13">13</option>
+																												<option value="14">14</option>
+																													<option value="15">15</option>
+																													<option value="16>16</option>
+																													<option value="17">17</option>
+																													<option value="18">18</option>
+																													<option value="19">19</option>
+																									</select>
+																								</td>
+																								<td class="list">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+																									<strong>Security Code:</strong></td>
+																								<td class="list">
+																									<input type="text" name="SecurityCode" maxlength="4" size="5"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																								</td>
+																								<td class="list">
+																								</td>
+																								<td class="listIndent" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;<i>3-digit for Visa/MC; 4-digit for AMEX</i></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+																							<tr>
+																								<td class="list">
+																									<b>Cardholder's Name:</b></td>
+																								<td class="list" colspan="3">
+																									<input type="text" name="CardholderName" size="30" onChange="updatePrice(this.form);"></td>
+																							</tr>
+																							<tr>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																								<td>
+																									<img height="1" width="1" src="images/spacer.gif"></td>
+																							</tr>
+                                              <tr>
+																					<td align="center" colspan="4">    <br/>
+																						<input type="button" name="Submit" value="Submit Registration Form" disabled onClick="verifyForm(this.form);"
+																							id="Button1"></td>
+																				</tr>
+                                              
+                                              </table>
+     </div>
+	    
+	  </form>
+  
+  </div>
+	 	<div id="btmCorner"></div>
+	
+			</body>
+</HTML>

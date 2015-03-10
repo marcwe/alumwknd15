@@ -1,0 +1,58 @@
+BODY { 
+	background-color: #f6f2df; 
+	position: absolute;
+
+margin-top:10px;
+}
+#container{margin:0 auto;}
+#header{
+width:770px;
+	background-image:url(../images2/header.jpg);
+	background-repeat:no-repeat;
+	height:109px;
+margin:0 auto;
+}
+#mainContainer{
+	width:770px;
+	background-image:url(../images2/bg-page.jpg);
+	background-repeat: repeat-y;
+	text-align:left;
+margin:0 auto;
+
+}
+
+#navigation{
+margin-left:10px;
+width:749px;
+background-color:#00448e;
+height:26px;
+border-top:1px solid #fff;
+text-align:left;
+padding-top:14px;
+}
+li
+{display: inline;list-style-type: none;padding-left:16px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#fff;text-decoration:none;}
+a
+{display: inline;list-style-type: none;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#fff;text-decoration:none;}
+li a:hover
+{display: inline;list-style-type: none;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#fff;text-decoration:underline;}
+#imgs{margin-left:10px;}
+#titleEvent{margin-left:10px;padding-top:14px;}
+#regLink{margin-left:10px;text-align:center;padding-top:10px;}
+#regLink a{color:#003366;font-weight:bold;}
+#regLink a:hover{color:#003366;font-weight:bold;text-decoration:underline;}
+#btmCorner{width:770px;
+	background-image:url(../images2/bottom-corner.jpg);
+	background-repeat:no-repeat;
+margin:0 auto;
+height:36px;}
+#btmPadding
+{height:10px;}
+#content{margin-left:10px;}
+.firstTitle{font-family:helvetica,verdana;font-size:18px; font-weight:bold;color:#00448e;padding:16px 40px 0 26px;}
+.secondRedTitle{font-family:helvetica,verdana;font-size:16px; font-weight:bold;color:#be0d42;padding:8px 40px 0 26px;}
+.secondBlueTitle{font-family:helvetica,verdana;font-size:14px; font-weight:bold;color:#00448e;padding:8px 40px 0 26px;}
+.thirdBlueTitle{font-family:helvetica,verdana;font-size:14px; color:#00448e;padding:8px 40px 0 26px;}
+.regLink{}
+.thirdBlueTitle a{color:#003366;font-weight:bold;}
+.thirdBlueTitle a:hover{color:#003366;font-weight:bold;text-decoration:underline;}
