@@ -224,7 +224,7 @@ function updatePrice(objForm){
 			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1964';
 			
 				if(fixInt(document.formRegister.FFBQuantity) >= 2){
-					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1964';
+					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1965';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total = subtotal - 50;
 					document.formRegister.FFBTotal.value = total;
@@ -232,7 +232,7 @@ function updatePrice(objForm){
 					}
 					
 				if(fixInt(document.formRegister.FFBQuantity) == 1) {
-					document.getElementById("message").innerHTML = '1 Complimentary Ticket for Class of 1964';
+					document.getElementById("message").innerHTML = '1 Complimentary Ticket for Class of 1965';
 					subtotal = (fixInt(document.formRegister.FFBItemCost) *	fixInt(document.formRegister.FFBQuantity));
 					total =  0;
 					document.formRegister.FFBTotal.value = total;
@@ -331,7 +331,7 @@ function updatePrice(objForm){
 			 
 function isCompDinnerDance(objFormItem)
 		{
-			if(objFormItem.value == "1900") return true;
+			if(objFormItem.value == "1965") return true;
 			/*else {
 				var str = objFormItem.value;
 				var match = str.match(/19[45][05]/);			
