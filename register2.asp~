@@ -221,7 +221,7 @@ function updatePrice(objForm){
 			 
 			 
 			 if (isCompDinnerDance(document.formRegister.classYear)==true) {
-			document.getElementById("message").innerHTML = '? Complimentary Tickets for Class of 1964';
+			document.getElementById("message").innerHTML = '2 Complimentary Tickets are available for the Class of 1965';
 			
 				if(fixInt(document.formRegister.FFBQuantity) >= 2){
 					document.getElementById("message").innerHTML = '2 Complimentary Tickets for Class of 1965';

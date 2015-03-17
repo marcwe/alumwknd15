@@ -411,7 +411,7 @@ function isCompDinnerDance(objFormItem)
   		<div class="firstTitle">	Please complete the form below to register for Reunion Weekend 2015.</div>
   		<div class="thirdBlueTitle"> A confirmation email will be sent to you upon receipt of your registration.<br>
 			<font color="#f99d31">* Indicates required fields</font>    <br/>
-      <b>REGISTRATION DEADLINE: Monday, May 29, 2015</b>
+      <b>REGISTRATION DEADLINE: Friday, May 29, 2015</b>
       </div>
       
       <div class="secondRedTitle">Step 1: Personal Information </div>
@@ -657,7 +657,8 @@ function isCompDinnerDance(objFormItem)
 																							</tr>
 																							<tr>
 																								<td class="list" colspan=2>
-																									<b>Reunion Luncheon for the Classes of 1965, 1960, 1955, 1950, 1945<br /></b>
+																									<b>Reunion Luncheon for the Classes of 1965, 1960, 1955, 1950, 1945,
+																									1940<br /></b>
 																								</td>
 																								
 																								<td class="list">&nbsp;
@@ -678,7 +679,8 @@ function isCompDinnerDance(objFormItem)
 																							<tr>
 																								<td class="listIndent">
 																									<input type="hidden" name="FFBItemNumber" value="1"> 
-																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1965, 1960, 1955, 1950, 1945">
+																									<input type="hidden" name="FFBItemDescription" value="Reunion Luncheon for - 1965, 1960, 1955, 1950, 1945,
+																									1940">
 																									<input type="hidden" name="FFBItemCost" value="25.00"> Adult: $25 per person 
                                                     <div style="COLOR: red" id="message" name="message">
 																									</div></td>
