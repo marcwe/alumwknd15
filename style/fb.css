@@ -1,0 +1,14 @@
+#fb-content {
+  margin-left:10%;
+ 
+  width: 400px
+}
+#fb-navbar {
+  float: left;
+   width: 200px;
+  text-align: center;
+}
+
+.fb-text   {
+     padding-top:5px
+}

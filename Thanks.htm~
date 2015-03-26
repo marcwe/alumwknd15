@@ -3,9 +3,10 @@
 
 <head>
 		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-		<meta name="generator" content="Bluefish 2.2.3" >
-		<title>PCOM - Alumni Weekend 2014</title>
+		<meta name="generator" content="Bluefish 2.2.5" >
+		<title>PCOM - Alumni Weekend 2015</title>
 		<link rel="STYLESHEET" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/fb.css">
 </head>
 
 <body bgcolor="#c5d5b9" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
@@ -35,7 +36,7 @@
 		            <td width="6"><img src="images/spacer.gif" width="6" height="6"></td>
 		            <td><a class="Link-nav" href="events.htm">ALUMNI WEEKEND EVENTS</a></td>
 		            <td><img src="images/nav_bullet.gif"></td>
-		            <td><a class="Link-nav" href="https://miswebmaster.easycgi.com/alumwknd14/register2.asp">REGISTRATION</a></td>
+		            <td><a class="Link-nav" href="https://miswebmaster.easycgi.com/alumwknd15/register2.asp">REGISTRATION</a></td>
 		            <td><img src="images/nav_bullet.gif"></td>
 		            <td><a class="Link-nav" href="cme.htm">CME SEMINARS</a></td>
 		            <td><img src="images/nav_bullet.gif"></td>
@@ -92,7 +93,10 @@
   
 </div>
 
-
+<div id="fb-container">
+  <div id="fb-navbar"><a href = "https://www.facebook.com/PCOMAlumni" target= "_blank"><img src="https://miswebmaster.easycgi.com/alumwknd15/images2/like-us-on-facebook-button_175.png"></a></div>
+  <div id="fb-content"><h4>Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.</h4></div>
+</div><!-- end fb-container -->
 
 
 

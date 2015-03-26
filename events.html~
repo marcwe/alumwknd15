@@ -5,28 +5,11 @@
 <title>Schedule of Events</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <link rel="stylesheet" type="text/css" href="style/pcom2009.css">
-<style>
-#fb-content {
-  margin-left:5%;
-  width: 400px
-}
-#fb-navbar {
-  float: left;
-   width: 200px;
-  text-align: center;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style/fb.css">
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="container">
 	<div id="header"></div>
 
@@ -109,8 +92,8 @@ Phone: 215-871-6348  <br/>
 
 <div id="fb-container">
   <div id="fb-navbar"><a href = "https://www.facebook.com/PCOMAlumni" target= "_blank"><img src="https://miswebmaster.easycgi.com/alumwknd15/images2/like-us-on-facebook-button_175.png"></a></div>
-  <div id="fb-content"><h4 style=" padding-top:5px;">Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.</h4></div>
-</div><!-- end container -->
+  <div id="fb-content"><h4 class="fb-text">Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.</h4></div>
+</div><!-- end fb-container -->
 <br>
 
 
