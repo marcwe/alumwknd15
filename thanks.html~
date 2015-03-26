@@ -39,7 +39,10 @@
     </div> 
 		<div class="thirdBlueTitle">
 	 
-       
+       <div id="fb-container">
+  <div id="fb-navbar"><a href = "https://www.facebook.com/PCOMAlumni" target= "_blank"><img src="https://miswebmaster.easycgi.com/alumwknd15/images2/like-us-on-facebook-button_175.png"></a></div>
+  <div id="fb-content"><h4 class="fb-text">Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.</h4></div>
+</div><!-- end fb-container -->
        
 		  </div>
 
@@ -51,10 +54,7 @@
 		</div><br>
 <br>
 
-<div id="fb-container">
-  <div id="fb-navbar"><a href = "https://www.facebook.com/PCOMAlumni" target= "_blank"><img src="https://miswebmaster.easycgi.com/alumwknd15/images2/like-us-on-facebook-button_175.png"></a></div>
-  <div id="fb-content"><h4 class="fb-text">Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.</h4></div>
-</div><!-- end fb-container -->
+
 
 
 			
