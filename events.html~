@@ -5,9 +5,22 @@
 <title>Schedule of Events</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <link rel="stylesheet" type="text/css" href="style/pcom2009.css">
+<style>
+.hidden_elem{
+	font-size:24px
+	}
+</style>
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
 	<div id="header"></div>
 
@@ -46,7 +59,7 @@ Phone: 215-871-6348  <br/>
 
 </div>
 
-<div class="secondRedTitle">Reunion Luncheon - Classes of 1965, 1960, 1955, 1950,&nbsp;1945, and 1940</div>
+<div class="secondRedTitle">Reunion Luncheon - Classes of 1965, 1960, 1955, 1950,&nbsp;and 1945</div>
 		<div class="secondBlueTitle">12:00 p.m.<br/>Borghese Room<br/>Hilton Philadelphia City Avenue<br />4200 City Avenue<br />Philadelphia, PA
     </div>
     <div class="thirdBlueTitle">Join your classmates for a special luncheon for our honored reunion guests- the 75th, 70th, 65th, 60th, 55th, and 50-year reunion celebrations. Don’t miss this exciting occasion to acknowledge the “pioneers” of our osteopathic profession. Each year PCOM honors the 50th anniversary class - the Class of 1965. We hope you’ll join us in recognizing this anniversary at the Reunion Luncheon.</div>
@@ -78,14 +91,19 @@ Phone: 215-871-6348  <br/>
 		<div class="secondBlueTitle">12:00 p.m. - 2:00 p.m.<br />PCOM Philadelphia Campus<br /> 4170 City Avenue<br/>Philadelphia, PA</div>
 		<div class="thirdBlueTitle">Start off the day by touring the campus and see how PCOM has grown into the college it is today. Take this opportunity to revisit as this experience will leave you amazed and very proud of your alma mater. Lunch will be served. In addition, there will be entertainment for children. Complimentary parking will be available in the PCOM garage.</div><br/>
 
-  <div class="secondRedTitle">Reunion Grand Reception - Celebrating Classes of&nbsp; 1940,&nbsp; 1945,&nbsp; 1950,&nbsp; 1955,&nbsp; 1960,&nbsp; 1965,&nbsp; 1970,&nbsp; 1975,&nbsp; 1980,&nbsp; 1985,&nbsp; 1990,&nbsp; 1995,&nbsp; 2000,&nbsp; and&nbsp; 2005<br />
+  <div class="secondRedTitle">Reunion Grand Reception - Celebrating Classes of&nbsp; 1945,&nbsp; 1950,&nbsp; 1955,&nbsp; 1960,&nbsp; 1965,&nbsp; 1970,&nbsp; 1975,&nbsp; 1980,&nbsp; 1985,&nbsp; 1990,&nbsp; 1995,&nbsp; 2000,&nbsp; and&nbsp; 2005<br />
 </div>
 		<div class="secondBlueTitle"> 6:00 p.m. to 9:30 p.m.<br> 
  Garden Ballroom<br/>Hilton Philadelphia City Avenue<br />4200 City Avenue<br/>Philadelphia, PA<br />
   </div>
 <div class="thirdBlueTitle">Whether it’s been 15 or 50 years since you graduated, your PCOM family is waiting for you. Join all the reunion classes to celebrate this amazing milestone in Hilton’s spectacular Garden Ballroom, as you enjoy delectable food stations, beverage bars and music. Business attire.
 <br>
-Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.
+<br>
+<div>
+<div >Like PCOM Alumni on Facebook to receive news and updates on Reunion Weekend 2015.<a href = "https://www.facebook.com/PCOMAlumni" target= "_blank"><img src="images2/like-us-on-facebook-button_175.png"></a>
+</div>
+
+
 </div>
 
 <br/>
